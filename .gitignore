@@ -1,6 +1,6 @@
 # IntelliJ
 out/
-.idea/
+.idea
 *.iml
 
 # Sonarlint plugin
@@ -8,7 +8,7 @@ out/
 
 ### Gradle ###
 .gradle
-build/
+build
 gradle-app.setting
 !gradle-wrapper.jar
 .gradletasknamecache
