@@ -13,8 +13,8 @@ before_install:
   - chmod +x gradlew
 
 script:
-  - git fetch --unshallow
-  - ./gradlew sonarqube --stacktrace
+#  - git fetch --unshallow
+  - ./gradlew sonarqube
 
 after_success:
   - docker build -t speech4j/api-gateway .gt
